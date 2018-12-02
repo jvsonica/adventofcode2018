@@ -2,7 +2,7 @@ package Day01
 import scala.io.Source
 
 class Day01 {
-  println("day01");
+  println("day01")
 
   def star1 (initialCurrent:Int) : Int  = {
     // Initialize result with initial current
@@ -32,7 +32,7 @@ class Day01 {
     return result
   }
 
-  def start2 (initialCurrent: Int) : Int = {
+  def star2 (initialCurrent: Int) : Int = {
     // Initialize variable that will keep track of current in each iteration
     var current : Int = initialCurrent
 
