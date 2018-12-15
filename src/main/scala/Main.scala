@@ -1,6 +1,8 @@
 import Day01._
 import Day02._
 import Day03._
+import Day04._
+
 
 object Main extends App {
 
@@ -15,4 +17,8 @@ object Main extends App {
   val d03 = new Day03()
   println("First star result is " + d03.star1())
   println("Second star result is " + d03.star2())
+
+  val d04 = new Day04()
+  println("First star result is " + d04.star1())
+  println("Second star result is " + d04.star2())
 }

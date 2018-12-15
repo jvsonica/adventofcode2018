@@ -16,7 +16,7 @@ class Day03 {
     // Regex to match each line
     val pattern = "^#([0-9]+) @ ([0-9]+),([0-9]+): ([0-9]+)x([0-9]+)".r
 
-    // Loop through file lines 109716
+    // Loop through file lines
     for (line <- input.getLines()) {
       var pattern(id, x, y, width, height) = line
 
