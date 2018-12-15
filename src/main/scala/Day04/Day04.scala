@@ -1,5 +1,4 @@
 package Day04
-
 import scala.io.Source
 
 

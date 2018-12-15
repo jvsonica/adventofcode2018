@@ -1,6 +1,7 @@
 package Day01
 import scala.io.Source
 
+
 class Day01 {
   println("day01")
 

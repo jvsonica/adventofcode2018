@@ -1,7 +1,7 @@
 package Day03
-
 import scala.collection.mutable.ArrayBuffer
 import scala.io.Source
+
 
 class Day03 {
   println("day03")
