@@ -5,9 +5,9 @@ import scala.io.Source
 class Day01 {
   println("day01")
 
-  def star1 (initialCurrent:Int) : Int  = {
+  def star1 () : Int  = {
     // Initialize result with initial current
-    var result : Int = initialCurrent
+    var result : Int = 0
 
     // Read input file
     val input = Source.fromFile("src/main/scala/Day01/input01.txt")
@@ -33,9 +33,9 @@ class Day01 {
     return result
   }
 
-  def star2 (initialCurrent: Int) : Int = {
+  def star2 () : Int = {
     // Initialize variable that will keep track of current in each iteration
-    var current : Int = initialCurrent
+    var current : Int = 0
 
     // Hashmap that will save reached values
     var cachedResults = Map[Int, Boolean]((0 -> true))
