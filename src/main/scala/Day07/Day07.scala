@@ -3,6 +3,7 @@ import scala.io.Source
 
 
 class Day07 {
+  println("day07")
 
   def readInput(filename : String) : Array[(Char, String)] = {
     // Read input file

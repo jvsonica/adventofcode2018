@@ -1,10 +1,10 @@
 package Day09
-
 import java.util
-
 import scala.io.Source
 
+
 class Day09 {
+  println("day09")
 
   def playMarblesDeque(players: Int, marbles: Int) : Array[Long] = {
     // Initialize data struts

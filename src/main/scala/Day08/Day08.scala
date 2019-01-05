@@ -3,6 +3,7 @@ import scala.io.Source
 
 
 class Day08 {
+  println("day08")
 
   case class Node(children: Array[Node], metadata: Array[Int]) {
     val getMetadataSum: Int = metadata.sum + children.map(_.getMetadataSum).sum
